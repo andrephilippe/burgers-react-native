@@ -15,28 +15,28 @@ export default StyleSheet.create({
         marginTop: 3,
         borderBottomLeftRadius: 100
     },
-    burgerText: {
+    text: {
         flex: 0.7,
         paddingRight: 30
     },
-    burgerTitle: {
+    title: {
         fontSize: 22,
         color: '#444444',
         textAlign: 'right'
     },
-    burgerPrice: {
+    price: {
         fontSize: 32,
         color: '#444444',
         textAlign: 'right'
     },
-    burgerIngredients: {
+    ingredients: {
         flex: 0.3,
         width: '100%',
         alignItems: 'flex-start',
         justifyContent: 'center',
         marginTop: 30
     },
-    burgerIngredient: {
+    ingredient: {
         width: '130%',
         resizeMode: 'contain'
     }

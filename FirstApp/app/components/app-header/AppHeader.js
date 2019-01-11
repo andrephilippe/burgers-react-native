@@ -1,13 +1,13 @@
 import React from 'react';
 import { View, Image } from 'react-native';
-import Styles from './AppHeaderStyles';
+import styles from './AppHeaderStyles';
 
 class AppHeader extends React.Component{
 
     render(){
         return (
-            <View style={Styles.container}>
-                <Image style={Styles.logo} source={require('../../assets/logo.png')} />
+            <View style={styles.container}>
+                <Image style={styles.logo} source={require('../../assets/logo.png')} />
             </View>
         )
     }
